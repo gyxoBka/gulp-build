@@ -1,0 +1,28 @@
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "vendor/reset";
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+body {
+    background-color: #181818;
+    font-family: Roboto-Thin;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 300;
+    color: $white;
+
+    overflow-x: hidden;
+}
+
+@import "blocks/container";
